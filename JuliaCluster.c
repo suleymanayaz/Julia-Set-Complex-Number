@@ -15,9 +15,9 @@ Complex *zc = (Complex*)malloc(sizeof(Complex));
 Complex *zk = (Complex*)malloc(sizeof(Complex));
 zc -> real = -0.79; 
 zc -> img  = 0.15 ;
-zc -> devide = (1.5/(float)1024);
+zc -> devide = (2/(float)1024);
 float r = 4.0; 
-pgmFormattedWrite(z1,zc,zk,75,r,pgmFILE); // 75 k degeri dir.
+pgmFormattedWrite(z1,zc,zk,75,r,pgmFILE); // k is values 75
 return 0;
 }
 void pgmFormattedWrite(Complex *z1,Complex *zc,Complex *zk,int k,float r,FILE *pgmFILE){
