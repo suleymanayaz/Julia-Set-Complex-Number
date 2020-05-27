@@ -9,7 +9,7 @@
 **Since the resolution of the picture is 2048 * 2048 ,The range [-2, 2] is divided into 2048**
 ## Preparations to create the shapes
 1- C = -0.79 + 0.15i for Julia clusters from Figures 3a-3f,<br/>
-2- C = 0.28 + 0.008i for 0.15i, Julia clusters from Figures 4a-4f,0.008i,<br/>
+2- C = 0.28 + 0.008i for 0.15i, Julia clusters from Figures 4a-4f,<br/>
 3- It is taken as c = -0.50 -0.56i for the Julia clusters in Figures 5a-5f.<br/>
 4- The R value was determined as 4 when creating the clusters in the figures.<br/>
 5- Real and images parts of complex numbers are limited between -2 and +2.<br/>
